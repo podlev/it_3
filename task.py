@@ -1,13 +1,44 @@
 #-*- coding: utf-8 -*
 import robot
 r = robot.rmap()
-r.lm('task4-1')
+r.lm('task2-3')
 def task():
     pass
     #------- пишите код здесь -----
+    def krest():
+        r.pt()
+        r.dn()
+        r.pt()
+        r.dn()
+        r.pt()
+        r.up()
+        r.lt()
+        r.pt()
+        r.rt()
+        r.rt()
+        r.pt()
+        r.up()
+        r.lt()
     r.rt()
-    r.pt()
-    
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
+    r.rt(4)
+    krest()
     #------- пишите код здесь -----
 r.start(task)
 
