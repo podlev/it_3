@@ -1,62 +1,18 @@
 #-*- coding: utf-8 -*
 import robot
 r = robot.rmap()
-r.lm('task2-3')
+r.lm('task3-1')
 def task():
     pass
     #------- пишите код здесь -----
-    r.sleep=0
-    def krest():
-        r.pt()
-        r.dn()
-        r.pt()
-        r.dn()
-        r.pt()
-        r.up()
-        r.lt()
-        r.pt()
+    if r.fr():
         r.rt()
-        r.rt()
-        r.pt()
-        r.up()
+    elif r.fd():
+        r.dn()
+    elif r.fl():
         r.lt()
-    def krestX():
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-        r.rt(4)
-        krest()
-    r.rt()
-    krestX()
-    r.dn(4)
-    r.lt(36)
-    krestX()
-    r.dn(4)
-    r.lt(36)
-    krestX()
-    r.dn(4)
-    r.lt(36)
-    krestX()
-    r.lt(36)
-    krestX()
-    r.dn(4)
-    r.lt(36)
-    krestX()
-    r.lt(37)
+    elif r.fu():
+        r.up()
     #------- пишите код здесь -----
 r.start(task)
 
