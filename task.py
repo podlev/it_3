@@ -6,9 +6,7 @@ def task():
     pass
     #------- пишите код здесь -----
     r.rt()
-    for z in range (1,29):
-        r.pt()
-        r.rt()
+    r.pt()
     
     #------- пишите код здесь -----
 r.start(task)
