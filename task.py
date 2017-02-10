@@ -5,6 +5,7 @@ r.lm('task2-3')
 def task():
     pass
     #------- пишите код здесь -----
+    r.sleep=0
     def krest():
         r.pt()
         r.dn()
@@ -41,7 +42,21 @@ def task():
         krest()
     r.rt()
     krestX()
-    
+    r.dn(4)
+    r.lt(36)
+    krestX()
+    r.dn(4)
+    r.lt(36)
+    krestX()
+    r.dn(4)
+    r.lt(36)
+    krestX()
+    r.lt(36)
+    krestX()
+    r.dn(4)
+    r.lt(36)
+    krestX()
+    r.lt(37)
     #------- пишите код здесь -----
 r.start(task)
 
